@@ -62,7 +62,7 @@ header{
 	.einstein{width:100px;height:70px;position:relative;bottom:60px;left:30px; border-radius:10px 0;}
 	.newton{width:100px;height:70px;position:relative;bottom:60px;left:60px;border-radius:10px 0;}
 	.poincare{width:100px;height:70px;position:relative;bottom:60px;left:90px;border-radius:10px 0;}
-	.personneliteInfluence{position:relative;bottom:200px;left:90px;}
+	.personneliteInfluence{position:relative;bottom:180px;left:90px;}
    
 .nom{}	
 .nomCV{
@@ -82,11 +82,11 @@ header{
 
 .portable{position:absolute;margin-top:-10px;right:90px;}
 .email{position:absolute;margin-top:-40px;right:30px;}
-.gmail{width=32px;height:32px;position:absolute;margin-top:-50px;right:220px;}
+.gmail{width:32px;height:32px;position:absolute;margin-top:-50px;right:220px;}
 .photoportable{width:32px;height:32px;position:absolute;margin-top:-17px;right:220px;}
 .facebook{position:absolute;margin-top:-100px;right:100px} 
 .LinkedIn{width:32px;height:32px;position:absolute;margin-top:-100px;right:140px;}
-.photomaison{width:32px;height:32px;position:absolute;margin-top:-80px;right:467px;}
+.photomaison{width:32px;height:32px;position:absolute;margin-top:-30px;right:467px;}
 .youtube{width:32px;height:32px;position:absolute;margin-top:-100px;right:180px;}
 .adresse {position:absolute;margin-top:-60px;right:280px;}
 nav{top:100px;left:0px;right:0;height: 150px;background-color: orange}
@@ -102,7 +102,7 @@ z-index: -1;
 background-size: 100%;
 
 width:100%;
-height: 1200px;
+height: 920px;
 
 
 
@@ -391,8 +391,8 @@ background-color: #333;
     height: 200px;
     width: 400px;
     padding: 1%;
-    margin-top: 10px;
-    margin-left: 350px
+    margin-top: -220px;
+    margin-left: 650px
  
 }
 .orangeLogo{
@@ -406,8 +406,9 @@ text-align: center;
 	padding: 1%;
 
 	margin-top: -200px;
-	margin-left: 850px;
+	margin-left: 1100px;
 }
+.codeur03{width: 70px;height: 50px;top: 230;left: 100px;}
 .stage02{
 	border-radius: 25px 0px 25px 0px;
 	background: #5EA3F7;
@@ -418,21 +419,70 @@ text-align: center;
 	margin-left: 10px;
 
 }
+.technipfmcLogo{top:230;left:100px; width: 70px;height: 50px;}
+.technipfmc{
+	
+	text-align: center;
+	border-radius: 15px;
+	background: #5EA3F7;
+	height: 120px;
+	width: 100px;
+	padding: 1%;
+	margin-top: -220px;
+	margin-left: 550px;
+
+   }
 .stage03{
+	position: relative;
 	border-radius: 0px 25px 0px 25px;
 	background: #C8CBCD;
 	height: 290px;
 	width: 500px;
 	padding: 1%;
-	margin-top: 10px;
-	margin-left: 350px;
+	margin-top: -70px;
+	margin-left: 1000px;
 }
+.veoliaLogo{top:230;left:100px; width: 70px;height: 50px;}
+.veolia{
+	
+	text-align: center;
+	border-radius: 15px;
+	background: #C8CBCD;
+	height: 120px;
+	width: 100px;
+	padding: 1%;
+	margin-top: -220px;
+	margin-left: 850px;
+
+   }
 .stage04{
 	border-radius: 25px 0px 25px 0px;
 	background: #F5F25B;
 	height: 200px; 
 	width: 300px;
 	padding: 1%;
-	margin-top: 10px;
-	margin-left: 10px;
+	margin-top: -50px;
+	margin-left: 200px;
 }
+.hydrodiesolLogo{top: 230;left: 100px;width: 70px;height: 50px;}
+.hydrodiesol{
+	text-align: center;
+	border-radius: 15px;
+	background: #F5F25B;
+	height: 120px;
+	width: 100px;
+	padding: 1%;
+	margin-top: -180px;
+	margin-left: 550px;
+}
+
+
+
+
+.codeur02{
+
+	 width: 320px;
+	 height: 250px;
+
+}
+
