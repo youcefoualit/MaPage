@@ -31,7 +31,7 @@ header{
 	}
 .titreHeader2{	color: brown;
 	margin-top:-80px;
-	margin-left:80px;
+	margin-left:0px;
 	text-align: center;
 	font-size: 40px;
 	padding: 70px;}
@@ -84,10 +84,10 @@ header{
 .email{position:absolute;margin-top:-40px;right:30px;}
 .gmail{width:32px;height:32px;position:absolute;margin-top:-50px;right:220px;}
 .photoportable{width:32px;height:32px;position:absolute;margin-top:-17px;right:220px;}
-.facebook{position:absolute;margin-top:-100px;right:100px} 
-.LinkedIn{width:32px;height:32px;position:absolute;margin-top:-100px;right:140px;}
+.facebook{position:absolute;margin-top:-90px;right:100px} 
+.LinkedIn{width:32px;height:32px;position:absolute;margin-top:-90px;right:140px;}
 .photomaison{width:32px;height:32px;position:absolute;margin-top:-30px;right:467px;}
-.youtube{width:32px;height:32px;position:absolute;margin-top:-100px;right:180px;}
+.youtube{width:32px;height:32px;position:absolute;margin-top:-90px;right:180px;}
 .adresse {position:absolute;margin-top:-60px;right:280px;}
 nav{top:100px;left:0px;right:0;height: 150px;background-color: orange}
 body{
@@ -392,8 +392,14 @@ background-color: #333;
     width: 400px;
     padding: 1%;
     margin-top: -220px;
-    margin-left: 650px
+    margin-left: 650px;
+ box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
  
+}
+.stage01:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 .orangeLogo{
 	top: 230px; left: 100px;width: 50px; height: 50px;}
@@ -407,6 +413,8 @@ text-align: center;
 
 	margin-top: -200px;
 	margin-left: 1100px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 .codeur03{width: 70px;height: 50px;top: 230;left: 100px;}
 .stage02{
@@ -417,7 +425,13 @@ text-align: center;
 	padding: 1%;
 	margin-top: 80px;
 	margin-left: 10px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 
+}
+.stage02:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 .technipfmcLogo{top:230;left:100px; width: 70px;height: 50px;}
 .technipfmc{
@@ -429,7 +443,9 @@ text-align: center;
 	width: 100px;
 	padding: 1%;
 	margin-top: -220px;
-	margin-left: 550px;
+	margin-left: 560px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 
    }
 .stage03{
@@ -441,6 +457,12 @@ text-align: center;
 	padding: 1%;
 	margin-top: -70px;
 	margin-left: 1000px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.stage03:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 .veoliaLogo{top:230;left:100px; width: 70px;height: 50px;}
 .veolia{
@@ -453,6 +475,8 @@ text-align: center;
 	padding: 1%;
 	margin-top: -220px;
 	margin-left: 850px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 
    }
 .stage04{
@@ -463,6 +487,12 @@ text-align: center;
 	padding: 1%;
 	margin-top: -50px;
 	margin-left: 200px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.stage04:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
 .hydrodiesolLogo{top: 230;left: 100px;width: 70px;height: 50px;}
 .hydrodiesol{
@@ -474,6 +504,8 @@ text-align: center;
 	padding: 1%;
 	margin-top: -180px;
 	margin-left: 550px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
 
 
