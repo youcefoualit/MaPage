@@ -43,6 +43,7 @@
 		   </select>
 		</div-->
 	  </div>
+
 	  <img src="slide/maison.png" alt="Adress" class="photomaison" title="Adresse"></img>
 	  <img src="slide/portable.png" alt="Numéro de téléphone" class="photoportable" title="Numéro de téléphone"></img>
 	  <img src="slide/gmail.png" alt="youcefoualit15@gmail.com" class="gmail" title="Email"></img>
@@ -152,10 +153,10 @@ dots[slideIndex-1].className += " active";
 }
 </script>
 <script type="text/javascript">
-  const titre=document.querySelector("img");
+  const titre=document.querySelector("");//il faut mettre "img", il va séléctionner la 1 er image
         titre.style.position = "absolute";
 		let topPos=0;
-		let dir=-1;
+		let dir=-2;
 		
 		function hautBas(){
 		if(topPos==100){dir=1}
