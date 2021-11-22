@@ -8,9 +8,9 @@ header{
 .titreHeader{
 	color: gold;
 	margin-top:-20px;
-	margin-left:0px;
+	margin-left:100px;
 	text-align: center;
-	font-size: 43px;
+	font-size: 50px;
 	padding: 70px;
 	text-shadow:
 	             0 1px 10px rgb(190,190,190),
@@ -30,7 +30,7 @@ header{
 				 cursor:pointer;
 	}
 .titreHeader2{	color: brown;
-	margin-top:-60px;
+	margin-top:-80px;
 	margin-left:0px;
 	text-align: center;
 	font-size: 40px;
@@ -58,7 +58,7 @@ header{
 				 tranform:translate(-51%,-51%);
 				 transition: all 0.35 ease-in-out;	
 }
-	.imgchimie{opacity: 1;position: center;}
+	.imgchimie{opacity: 1;}
 	.einstein{width:100px;height:70px;position:relative;bottom:60px;left:30px; border-radius:10px 0;}
 	.newton{width:100px;height:70px;position:relative;bottom:60px;left:60px;border-radius:10px 0;}
 	.poincare{width:100px;height:70px;position:relative;bottom:60px;left:90px;border-radius:10px 0;}
@@ -82,13 +82,13 @@ header{
 
 .portable{position:absolute;margin-top:-10px;right:90px;}
 .email{position:absolute;margin-top:-40px;right:30px;}
-.gmail{width=32px;height:32px;position:absolute;margin-top:-50px;right:220px;}
+.gmail{width:32px;height:32px;position:absolute;margin-top:-50px;right:220px;}
 .photoportable{width:32px;height:32px;position:absolute;margin-top:-17px;right:220px;}
 .facebook{position:absolute;margin-top:-90px;right:100px} 
 .LinkedIn{width:32px;height:32px;position:absolute;margin-top:-90px;right:140px;}
 .photomaison{width:32px;height:32px;position:absolute;margin-top:-30px;right:467px;}
 .youtube{width:32px;height:32px;position:absolute;margin-top:-90px;right:180px;}
-.adresse{position:absolute;margin-top:-60px;right:280px;}
+.adresse {position:absolute;margin-top:-60px;right:280px;}
 nav{top:100px;left:0px;right:0;height: 150px;background-color: orange}
 body{
 
@@ -102,7 +102,7 @@ z-index: -1;
 background-size: 100%;
 
 width:100%;
-height: 900px;
+height: 920px;
 
 
 
@@ -385,85 +385,136 @@ background-color: #333;
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
                 inset 2px 2px 3px rgba(0, 0, 0, .6);
 }
-
-
-.diplome{
-	width: 202px;
-	height: 200px;
-	border-radius: 80px;
-	margin-top: 100px;
-	margin-left: 100px;
+.stage01{
+	border-radius: 0px 25px 0px 25px;
+	background: #97DE31;
+    height: 200px;
+    width: 400px;
+    padding: 1%;
+    margin-top: -220px;
+    margin-left: 650px;
+ box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+ 
 }
+.stage01:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.orangeLogo{
+	top: 230px; left: 100px;width: 50px; height: 50px;}
+.orange{
+text-align: center;
+		border-radius: 15px;
+	background: #97DE31;
+	height: 125px;
+	width: 100px;
+	padding: 1%;
 
-.textFormation01{
-    margin-left: 340px;
 	margin-top: -200px;
+	margin-left: 1100px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 }
-
-.diplome01{
-	width: 202px;
-	height: 200px;
-	border-radius: 80px;
-	margin-top: -150px;
-	margin-left: 930px;
-}
-.textFormation02{
-	margin-left: 1150px;
-	margin-top: -200px;}
-
-.formation{
-	display: inline-block;
-}
-
-
-.logiciels{
-
+.codeur03{width: 70px;height: 50px;top: 230;left: 100px;}
+.stage02{
 	border-radius: 25px 0px 25px 0px;
-	background: #795BF5;
-	height: 300px;
-	width: 200px;
-	padding: 0%;
-	margin-top: 60px;
+	background: #5EA3F7;
+	height: 250px;
+	width: 500px;
+	padding: 1%;
+	margin-top: 80px;
 	margin-left: 10px;
-	 box-shadow: inset 2px 2px 3px rgba(255, 255, 0, .6),
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
 
 }
+.stage02:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.technipfmcLogo{top:230;left:100px; width: 70px;height: 50px;}
+.technipfmc{
+	
+	text-align: center;
+	border-radius: 15px;
+	background: #5EA3F7;
+	height: 120px;
+	width: 100px;
+	padding: 1%;
+	margin-top: -220px;
+	margin-left: 560px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 
-.outils{
+   }
+.stage03{
+	position: relative;
+	border-radius: 0px 25px 0px 25px;
+	background: #C8CBCD;
+	height: 290px;
+	width: 500px;
+	padding: 1%;
+	margin-top: -70px;
+	margin-left: 1000px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.stage03:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.veoliaLogo{top:230;left:100px; width: 70px;height: 50px;}
+.veolia{
+	
+	text-align: center;
+	border-radius: 15px;
+	background: #C8CBCD;
+	height: 120px;
+	width: 100px;
+	padding: 1%;
+	margin-top: -220px;
+	margin-left: 850px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
 
+   }
+.stage04{
 	border-radius: 25px 0px 25px 0px;
-	background: #795BF5;
-	height: 300px;
-	width: 200px;
-	padding: 0%;
-	margin-top: -285px;
-	margin-left: 250px;
-	 box-shadow: inset 2px 2px 3px rgba(255, 255, 0, .6),
+	background: #F5F25B;
+	height: 200px; 
+	width: 300px;
+	padding: 1%;
+	margin-top: -50px;
+	margin-left: 200px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.stage04:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.hydrodiesolLogo{top: 230;left: 100px;width: 70px;height: 50px;}
+.hydrodiesol{
+	text-align: center;
+	border-radius: 15px;
+	background: #F5F25B;
+	height: 120px;
+	width: 100px;
+	padding: 1%;
+	margin-top: -180px;
+	margin-left: 550px;
+	 box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
+
+.codeur02{
+
+	 width: 320px;
+	 height: 250px;
 
 }
 
-.langues{
-		border-radius: 25px 0px 25px 0px;
-	background: #795BF5;
-	height: 300px;
-	width: 200px;
-	padding: 0%;
-	margin-top: -243px;
-	margin-left: 600px;
-	 box-shadow: inset 2px 2px 3px rgba(255, 255, 0, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-}
-
-.langages{
-		border-radius: 25px 0px 25px 0px;
-	background: #795BF5;
-	height: 300px;
-	width: 200px;
-	padding: 0%;
-	margin-top: -320px;
-	margin-left: 900px;
-	 box-shadow: inset 2px 2px 3px rgba(255, 255, 0, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-}
