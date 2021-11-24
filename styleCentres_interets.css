@@ -82,7 +82,7 @@ header{
 
 .portable{position:absolute;margin-top:-10px;right:90px;}
 .email{position:absolute;margin-top:-40px;right:30px;}
-.gmail{width=32px;height:32px;position:absolute;margin-top:-50px;right:220px;}
+.gmail{width:32px;height:32px;position:absolute;margin-top:-50px;right:220px;}
 .photoportable{width:32px;height:32px;position:absolute;margin-top:-17px;right:220px;}
 .facebook{position:absolute;margin-top:-90px;right:100px} 
 .LinkedIn{width:32px;height:32px;position:absolute;margin-top:-90px;right:140px;}
@@ -102,7 +102,7 @@ z-index: -1;
 background-size: 100%;
 
 width:100%;
-height: 900px;
+height: 100%;
 
 
 
@@ -386,10 +386,7 @@ background-color: #333;
                 inset 2px 2px 3px rgba(0, 0, 0, .6);}
 
 
-.chess{
-	
-	border-radius: 30px;
-}
+
 .textChess{
 	width: 400px;
 	height: 180px;
@@ -431,4 +428,12 @@ background-color: #333;
 .karateDiv{
 	margin-left: 400px;
 	margin-top: -10px;
+}
+
+.chess{
+	
+	height: 300px;
+	width: 150px;
+	border-radius: 30px;
+
 }
