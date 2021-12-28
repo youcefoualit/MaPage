@@ -94,7 +94,7 @@ body{
 
 
 }
-section{
+.section{
 background-image: url(slide/LDV.png);
 background-repeat:no-repeat;
 background-size: cover;
@@ -102,7 +102,8 @@ z-index: -1;
 background-size: 100%;
 
 width:100%;
-height: 920px;
+height: 620px;
+
 
 
 
